@@ -17,6 +17,10 @@ SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,N
 CREATE SCHEMA IF NOT EXISTS `quebragalhodb` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 USE `quebragalhodb` ;
 
+-- Logo após USE quebragalhodb;
+SET NAMES utf8mb4;
+SET CHARACTER SET utf8mb4;
+
 -- -----------------------------------------------------
 -- Table `quebragalhodb`.`usuario`
 -- -----------------------------------------------------
